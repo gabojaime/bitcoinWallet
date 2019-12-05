@@ -55,6 +55,11 @@ function createPublicAddress(publicKeyHash) {
     return address;
 }
 
+/**
+ * WIF stands for “wallet import format.” 
+ * It was a standard introduced to make it easier and more secure for users to migrate wallets from different services.
+ * @param {*} privateKey 
+ */
 function createPrivateKeyWIF(privateKey) {
     const step1 = Buffer.from("80" + privateKey, 'hex');
     const step2 = sha256(step1);
