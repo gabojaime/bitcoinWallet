@@ -1,0 +1,26 @@
+{
+  "name": "bitcoinwallet",
+  "version": "1.0.0",
+  "description": "generacion e wallets validos para bitcoin",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabojaime/bitcoinWallet.git"
+  },
+  "author": "Gabriel Jaime",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabojaime/bitcoinWallet/issues"
+  },
+  "homepage": "https://github.com/gabojaime/bitcoinWallet#readme",
+  "dependencies": {
+    "bs58": "^4.0.1",
+    "elliptic": "^6.5.2",
+    "js-sha256": "^0.9.0",
+    "ripemd160": "^2.0.2",
+    "secure-random": "^1.1.2"
+  }
+}
