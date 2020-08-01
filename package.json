@@ -18,7 +18,7 @@
   "homepage": "https://github.com/gabojaime/bitcoinWallet#readme",
   "dependencies": {
     "bs58": "^4.0.1",
-    "elliptic": "^6.5.2",
+    "elliptic": "^6.5.3",
     "js-sha256": "^0.9.0",
     "ripemd160": "^2.0.2",
     "secure-random": "^1.1.2"
